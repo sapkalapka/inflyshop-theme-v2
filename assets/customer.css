@@ -89,6 +89,10 @@
   border: none;
   padding: 0;
 }
+.customer th {
+  color: white;
+  background-color: rgb(var(--color-base-accent-1));
+}
 
 @media screen and (min-width: 750px) {
   .customer td {
@@ -382,7 +386,10 @@
 .activate button[name='decline'],
 .addresses li > button,
 .addresses form button[type] {
-  background-color: rgba(var(--color-background), var(--alpha-button-background));
+  background-color: rgba(
+    var(--color-background),
+    var(--alpha-button-background)
+  );
   color: rgb(var(--color-link));
 }
 
@@ -479,6 +486,7 @@
   box-shadow: 0 0 0 0.1rem rgba(var(--color-link), 0.2);
   border: 0.1rem solid transparent;
   font-size: 1.2rem;
+  border-radius: 4px;
 }
 
 .account table td:first-of-type a:hover {
