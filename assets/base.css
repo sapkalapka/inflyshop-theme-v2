@@ -2350,7 +2350,7 @@ input[type='checkbox'] {
 }
 
 .header__icon {
-  color: rgba(var(--color-foreground),0.7);
+  color: rgba(var(--color-foreground),0.8);
 }
 
 .header__icon span {
